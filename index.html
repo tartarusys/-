@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>053何冰冰</title>
+    <style>
+        * {
+            list-style: none;
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+        }
+        .yijihezi {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 400px;
+            height: 700px;
+            margin: auto;
+        }
+        .yijiliebiao {
+            width: 100px;
+            height: 200px;
+        }
+        .yijiliebiao>li {
+            position: relative;
+            background-color: #03537b;
+            width: 100px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 3px;
+            border-radius: 5px;
+        }
+        .a1,.a2,.a3{
+            width: 120px;
+            height: 134px;
+            background-color: #e27a18;
+            border-radius: 5px;
+            position: absolute;
+            left: 105px; 
+            top: 0; 
+            display: none;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            z-index: 10;
+        }
+        .a1 {
+            width: 120px;
+            height: 134px;
+            background-color: #e27a18;
+            border-radius: 5px;
+            margin: 10px 5px;
+            position: absolute;
+            left: 96px;
+            display: none;
+        }
+        .a2 {
+            width: 120px;
+            height: 134px;
+            background-color: #e27a18;
+            border-radius: 5px;
+            margin: 10px 5px;
+            position: absolute;
+            left: 96px;
+            display: none;
+        }
+        .a3 {
+            width: 120px;
+            height: 134px;
+            background-color: #e27a18;
+            border-radius: 5px;
+            margin: 10px 5px;
+            position: absolute;
+            display: none;
+        }
+        .b1,
+        .b2,
+        .b3 {
+            padding: 0;
+        }
+        .b1>li,
+        .b2>li,
+        .b3>li {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin: 13px;
+        }
+        .yijiliebiao>li:hover>.a1{
+            display: block;
+        }
+        .yijiliebiao>li:hover>.a2 {
+            display: block;
+        }
+        .yijiliebiao>li:hover>.a3 {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="yijihezi">
+        <ul class="yijiliebiao">
+            <li class="d1">
+                <a href=" ">学习资源</a >
+                <div class="a1">
+                    <ul class="b1">
+                        <li><a href="#">编程教材</a ></li>
+                        <li><a href="#">设计素材</a ></li>
+                        <li><a href="#">在线课程</a ></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="d2">
+                <a href="#">兴趣爱好</a >
+                <div class="a2">
+                    <ul class="b2">
+                        <li><a href="#">绘画</a ></li>
+                        <li><a href="#">音乐</a ></li>
+                        <li><a href="#">运动</a ></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="d3">
+                <a href="#">日常生活</a >
+                <div class="a3">
+                    <ul class="b3">
+                        <li><a href="#">美食</a ></li>
+                        <li><a href="#">旅行</a ></li>
+                        <li><a href="#">摄影</a ></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
